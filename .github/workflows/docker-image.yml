@@ -28,7 +28,7 @@ jobs:
         docker image build -t byronpaguay/docker-graphql:0.0.1 .
     - name: Push Docker Image
       run: |
-        docker push -t byronpaguay/docker-graphql:0.0.1 
+        docker push  byronpaguay/docker-graphql:0.0.1 
 
     
 #     - name: Build the Docker image
