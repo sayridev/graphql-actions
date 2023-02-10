@@ -41,7 +41,7 @@ jobs:
       env:
          NEW_VERSION: ${{steps.version.outputs.version}}
       run: |
-        docker push  byronpaguay/docker-graphql:$NEW_VERSION 
+        docker push  byronpaguay/docker-graphql:$NEW_VERSION
         docker push  byronpaguay/docker-graphql:latest
 
     
